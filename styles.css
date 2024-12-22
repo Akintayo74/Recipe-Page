@@ -88,3 +88,19 @@ ol li{
 li::marker{
     color: hsl(14, 45%, 36%);
 }
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    margin-block-start: 1rem;
+}
+
+table td{
+    border-block-end: 1px solid hsl(30, 18%, 87%);
+    padding: .5rem;
+}
+
+tr td:nth-child(2){
+    color: hsl(14, 45%, 36%);
+}
