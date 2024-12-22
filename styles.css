@@ -9,7 +9,18 @@ body{
     font-size: 16px;
     color: hsl(30, 10%, 34%);
     background-color: hsl(330, 51%, 92%);
+    line-height: 1.5;
 }
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Young-serif';
+    margin-block-end: 1.7rem;
+    margin-block-start: 1.7rem;
+    color: hsl(14, 45%, 36%);
+}
+
+
 
 .container{
     display: flex;
@@ -19,6 +30,7 @@ body{
     gap: 1ch;
     max-width: 750px;
     border: 1px solid red;
+    border-radius: 2rem;
     padding: 30px;
     margin: 0 auto;
     background-color: white;
@@ -48,9 +60,31 @@ header h1{
     color: hsl(332, 51%, 32%);
 }
 
-.prep-time ul li{
-    /* padding: 0 30px; */
+ul li{
     list-style-position: inside;
     margin-block-end: 10px;
+    padding-inline-start: 1rem;
 }
 
+hr{
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.ingredients{
+    margin-block-end: 2rem;
+}
+
+.instructions{
+    margin-block-end: 2rem;
+}
+
+ol li{
+    list-style-position: outside;
+    margin-block-end: 10px;
+    margin-inline-start: 2rem;
+    padding-inline-start: 1rem;
+}
+
+li::marker{
+    color: hsl(14, 45%, 36%);
+}
